@@ -1,0 +1,54 @@
+# Tic-Tac-Toe
+This is a simple implementation of Tic Tac Toe game using Java programming language and Object-Oriented Programming (OOPs) core concepts.
+
+Requirements
+Java Development Kit (JDK)
+Any IDE that supports Java (Eclipse, IntelliJ IDEA, NetBeans, etc.)
+
+How to run the game?
+Clone this repository or download the source code
+Open the project in your favorite IDE
+Compile and run the TicTacToe.java file
+
+Game Rules
+The game is played on a 3x3 grid
+There are two players in the game: Player 1 and Player 2
+Player 1 is assigned "X" symbol and Player 2 is assigned "O" symbol
+The players take turns to place their symbols on the grid
+The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game
+If all the cells on the grid are filled and no player has won, the game ends in a draw
+
+Implementation Details
+Classes
+TicTacToe
+This is the main class of the game that handles the game flow. It has the following responsibilities:
+
+Initializes the game board
+Manages the game loop
+Gets player input and validates it
+Checks if there is a winner or if the game has ended in a draw
+Prints the game board after every turn
+Player
+This class represents a player in the game. It has the following attributes:
+
+name: the name of the player
+symbol: the symbol assigned to the player ("X" or "O")
+Board
+This class represents the game board. It has the following attributes:
+
+board: a 3x3 array that holds the state of the game board
+OOPs Concepts
+Encapsulation
+The Player class encapsulates the name and symbol attributes, which are private and can only be accessed through public getter and setter methods.
+
+Inheritance
+There is no inheritance used in this implementation.
+
+Polymorphism
+There is no polymorphism used in this implementation.
+
+Abstraction
+The Board class abstracts the game board details and provides public methods to interact with the board. The TicTacToe class interacts with the board using these public methods without knowing the details of how the board works.
+
+Conclusion
+This is a simple implementation of Tic Tac Toe game using Java programming language and OOPs core concepts. It can be improved by adding more features, such as a graphical user interface, difficulty levels, and multiplayer mode.
